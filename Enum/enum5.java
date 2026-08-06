@@ -1,3 +1,4 @@
+package Enum;
 public class enum5 {
     public static void main(String[] args) {
         Direction[] direction = Direction.values(); // give array

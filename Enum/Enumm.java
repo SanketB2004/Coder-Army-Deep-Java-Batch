@@ -1,3 +1,4 @@
+package Enum;
 public class Enumm {
 
     // 1. Enum

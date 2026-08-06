@@ -1,3 +1,4 @@
+package Enum;
 public class enum2 {
     public static void main(String[] args) {
         Direction d = Direction.SOUTH;

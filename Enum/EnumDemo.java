@@ -1,3 +1,4 @@
+package Enum;
 enum Direction {
     NORTH,
     SOUTH,

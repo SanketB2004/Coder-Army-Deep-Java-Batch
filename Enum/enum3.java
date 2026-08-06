@@ -1,3 +1,4 @@
+package Enum;
 public class enum3 {
     public static void main(String[] args) {
         
