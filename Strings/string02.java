@@ -19,5 +19,7 @@ public class string02 {
        String s8 = "Sanket";// grabage collection run and Sanket Clean
        s8 = "World";
        System.out.println(s8);
+
+       System.out.println("Hii");
     }
 }
