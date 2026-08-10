@@ -15,7 +15,19 @@ public class string03 {
   String s6 = new String(arr,0,2);
 System.out.println(s6); // this 0 is index and count is 2 index tak print kara words 
 
+// check this a unicode ascaii values print 
+
+byte[] arr2 =  {97,98,99};
+String s7 = new String(arr2);
+System.out.println(s7); // output is a (abc)
 
 
+
+// StringBuilder / Stringbuffer
+
+StringBuilder sb = new StringBuilder("Hello");
+String s8 = new String(sb);
+System.out.println(s8);
+ 
     }
 }
