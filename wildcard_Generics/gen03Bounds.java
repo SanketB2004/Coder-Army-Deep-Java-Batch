@@ -14,6 +14,7 @@ fun(dogs);
     static void fun(List<? extends Animal> values) {
        for (Animal animal : values) {
         animal.eat();
+        // not writing allowed here
        }
     } 
 }
