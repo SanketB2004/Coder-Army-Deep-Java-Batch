@@ -53,7 +53,7 @@ public class Enumm {
 
         // valueOf()
         Day day1 = Day.valueOf("SUNDAY");
-        System.out.println("\nvalueOf() : " + day1);
+        System.out.println("\nvalueOf() : " + day1 + " hii");
 
         // switch
         System.out.println("\nSwitch Example :");
