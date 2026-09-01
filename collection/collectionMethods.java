@@ -19,6 +19,15 @@ System.out.println(n);
 // is empty method 
 System.out.println(c.isEmpty());
 
+// boolean contains(Object o)
+
+System.out.println(c.contains(3)); // check this is in a array this number
+
+
+
+
+
+ 
 
 }
     
