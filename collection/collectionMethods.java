@@ -51,12 +51,30 @@ c.add(3);// Add Method
 
  // boolean Add All (Collection<? extends E> c)
 
- c.addAll(List.of(5,6,7,8,9));
+ //c.addAll(List.of(5,6,7,8,9));
 
  System.out.println(c); // this used internally toString Method 
 
- 
 
+ // containAll (Collection <?> c);
+
+ System.out.println(c.containsAll(List.of(1,2,3)));
+
+ // removeAll 
+ System.out.println(c.removeAll(List.of(1,2)));
+
+ // print 
+ System.out.println(c);
+
+ // boolean retainAll() meains a this element see arr other all delet
+
+// c.retainAll(List.of(1,2));
+
+
+
+
+ 
+ 
 
 
 
