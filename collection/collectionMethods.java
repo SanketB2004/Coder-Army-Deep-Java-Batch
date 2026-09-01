@@ -70,6 +70,8 @@ c.add(3);// Add Method
 
 // c.retainAll(List.of(1,2));
 
+// c.clear() // all clear in element in array 
+
 
 
 
