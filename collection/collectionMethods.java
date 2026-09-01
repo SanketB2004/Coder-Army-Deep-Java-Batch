@@ -44,7 +44,9 @@ c.add(3);// Add Method
 boolean b = c.add(4);
 System.out.println(b);
 
- 
+// boolean remove (Object obj);
+
+ System.out.println(c.remove(2));
 
 }
     
