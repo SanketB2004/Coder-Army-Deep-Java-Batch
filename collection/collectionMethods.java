@@ -51,7 +51,12 @@ c.add(3);// Add Method
 
  // boolean Add All (Collection<? extends E> c)
 
+ c.addAll(List.of(5,6,7,8,9));
+
+ System.out.println(c); // this used internally toString Method 
+
  
+
 
 
 
