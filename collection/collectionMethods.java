@@ -41,12 +41,20 @@ c.add(3);// Add Method
 
 
 // boolean add( E e)
-boolean b = c.add(4);
-System.out.println(b);
+// boolean b = c.add(4);
+// System.out.println(b);
 
 // boolean remove (Object obj); may be first occurence remove it only this used to 
 
- System.out.println(c.remove(2));
+ //System.out.println(c.remove(2));
+
+
+ // boolean Add All (Collection<? extends E> c)
+
+ 
+
+
+
 
 }
     
