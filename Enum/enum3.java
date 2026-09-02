@@ -3,7 +3,7 @@ public class enum3 {
     public static void main(String[] args) {
         
         Direction d = Direction.EAST;
-d.move();
+// d.move();q
     }
 
     enum Direction {

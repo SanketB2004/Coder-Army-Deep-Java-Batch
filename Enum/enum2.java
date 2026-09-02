@@ -15,7 +15,7 @@ public class enum2 {
         private int degree;
 
         Direction(int degree){
-            this.degree=degree;
+            this.degree = degree;
         }
 
         public int getDegree() {
