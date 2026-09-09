@@ -34,15 +34,20 @@ System.out.println(set.ceiling(80));// smallest no greter than or equal to 80
 // System.out.println(set.first()); // check kela element delet kela ka ny yane 
 // System.out.println(set.last()); // check kela element delet kela ka ny yane 
 
-System.out.println(set.descendingSet());//
+// System.out.println(set.descendingSet());//
 
-Iterator<Integer> it =  set.descendingIterator();
+// Iterator<Integer> it =  set.descendingIterator();
 
-while (it.hasNext()) {
-    System.out.println(it.next());
-} // treeset madhe iterator pn asato ani tyacya methods pn asatat na 
+// while (it.hasNext()) {
+//     System.out.println(it.next());
+// } // treeset madhe iterator pn asato ani tyacya methods pn asatat na 
+
+// System.out.println(set.headSet(80,true));// this give me a all 80 less element list ani 80 la pn include karanar he method
+//  System.out.println(set.tailSet(80, true));// 80 greter element gives me ani 80 pn element include
+//  System.out.println(set.subSet(10,true,80,false));// all gives me element in array 10 to 80 middel numbers gives me 
 
 
+     
      
     }
 }
