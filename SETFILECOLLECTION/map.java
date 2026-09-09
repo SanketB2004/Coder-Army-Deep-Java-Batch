@@ -23,5 +23,6 @@ System.out.println(map.get(101));// element get this all map
 // remove 
 // map.remove(105);
 System.out.println(map.get(106));
+
     }
 }
