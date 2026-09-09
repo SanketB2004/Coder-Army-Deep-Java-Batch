@@ -15,7 +15,13 @@ map.isEmpty();
 System.out.println(map.containsValue("Sanket"));// check value exits
 System.out.println(map.containsKey(101)); // check a key are exits
 
+System.out.println(map.get(101));// element get this all map
 
-
+// // update 
+ System.out.println(map.put(106 , "Raje"));
+// sout madhe ahe lagicha update ny hot to retur null denar check in terminal 
+// remove 
+// map.remove(105);
+System.out.println(map.get(106));
     }
 }
