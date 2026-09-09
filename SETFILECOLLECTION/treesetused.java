@@ -36,7 +36,11 @@ System.out.println(set.ceiling(80));// smallest no greter than or equal to 80
 
 System.out.println(set.descendingSet());//
 
+Iterator<Integer> it =  set.descendingIterator();
 
+while (it.hasNext()) {
+    System.out.println(it.next());
+} // treeset madhe iterator pn asato ani tyacya methods pn asatat na 
 
 
      
