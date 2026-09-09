@@ -25,7 +25,16 @@ set.add(50);
 System.out.println(set.lower(80));// manje mala ha asa elament denar ki 80 peksha small but in array this big element 
 System.out.println(set.floor(80));// gretest element less than 80
 
+System.out.println(set.higher(80));// smallest element greter than 80
+System.out.println(set.ceiling(80));// smallest no greter than or equal to 80
 
+// System.out.println(set.pollFirst());// ha number deto pn ani delet pn karato treeset madhun
+// System.out.println(set.pollLast());// ha number deto pn ani delet pn karato treeset madhun
+
+// System.out.println(set.first()); // check kela element delet kela ka ny yane 
+// System.out.println(set.last()); // check kela element delet kela ka ny yane 
+
+System.out.println(set.descendingSet());//
 
 
 
