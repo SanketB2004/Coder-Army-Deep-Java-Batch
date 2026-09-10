@@ -31,7 +31,19 @@ System.out.println(map.get(106));
 // map.values // all values string collection return becuse values dublicate hou shakatat 
 
 // map.entrySet() // set of type entry return 
-Set<Map.Entry<Integer , String>> entry = map.entrySet();
+// Set<Map.Entry<Integer , String>> entry = map.entrySet();
+// System.out.println(entry);
+
+// set and defult //map.getOrDefult 
+
+// map.puIfAbsent // mhanje jr 104 aleredy exits ahe tr ha ny karat exists 
+
+// map.remove (key , value) jr me jevha remove karel key and value same ahet manje ki 104 he valu ahe taracha remove nytr ny
+
+// map.replace (104 , "Sanket") only update 
+
+// map.replace(104 , sanket , SANKET) mhanje ki key 104 madhe jr sanket asel taracha me update karun SANKET takanar
+
 
 
 
