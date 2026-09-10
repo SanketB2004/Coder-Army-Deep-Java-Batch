@@ -24,5 +24,17 @@ System.out.println(map.get(101));// element get this all map
 // map.remove(105);
 System.out.println(map.get(106));
 
+// map.putAll() bug values put in map 
+
+// map.ketset // all key ghenyasathi use hott 
+
+// map.values // all values string collection return becuse values dublicate hou shakatat 
+
+// map.entrySet() // set of type entry return 
+Set<Map.Entry<Integer , String>> entry = map.entrySet();
+
+
+
+
     }
 }
